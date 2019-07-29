@@ -1,0 +1,27 @@
+{
+  "name": "@fewlines/stylelint-config-fewlines-css",
+  "version": "1.0.0",
+  "description": "Shareable config for Stylelint used by Fewlines",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fewlinesco/stylelint-config-fewlines-css.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "fewlines"
+  ],
+  "author": "Fewlines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fewlinesco/stylelint-config-fewlines-css/issues"
+  },
+  "homepage": "https://github.com/fewlinesco/stylelint-config-fewlines-css#readme",
+  "peerDependencies": {
+    "stylelint": "^8.3.0 || ^9.0.0 || ^10.0.0"
+  },
+  "devDependencies": {
+    "stylelint-order": "^3.0.1"
+  }
+}
