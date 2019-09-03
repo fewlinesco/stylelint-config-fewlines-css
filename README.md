@@ -6,17 +6,15 @@ Shareable config for Stylelint used by Fewlines
 
 ## Usage
 
-This package is meant to be used with `@fewlines/front-scripts`, if you do, you only have to install this one package:
-
 ```shell
-yarn add -D @fewlines/front-scripts
+yarn add -D @fewlines/front-scripts stylelint styleint-order
 ```
 
 Then add these line to your `package.json`:
 
 ```json
 "stylelint": {
-	"extends": "fewlines-css"
+	"extends": "@fewlines/stylelint-config-fewlines-css"
 }
 ```
 
