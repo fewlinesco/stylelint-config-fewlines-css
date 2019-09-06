@@ -1,7 +1,9 @@
 module.exports = {
   plugins: ["stylelint-order"],
   rules: {
-    "at-rule-empty-line-before": "always",
+    "at-rule-empty-line-before": [ "always", {
+      except: [ "after-same-name" ],
+    } ],
     "at-rule-semicolon-newline-after": "always",
     "order/properties-order": [
       {
