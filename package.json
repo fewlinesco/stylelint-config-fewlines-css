@@ -1,6 +1,6 @@
 {
   "name": "@fewlines/stylelint-config-fewlines-css",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Shareable config for Stylelint used by Fewlines",
   "main": "index.js",
   "repository": {
@@ -22,6 +22,6 @@
     "stylelint": "^8.3.0 || ^9.0.0 || ^10.0.0"
   },
   "devDependencies": {
-    "stylelint-order": "^3.0.1"
+    "stylelint-order": "4.1.0"
   }
 }
